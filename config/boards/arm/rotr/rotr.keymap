@@ -8,7 +8,7 @@
         inc_dec_kp_2: behavior_sensor_rotate_key_press_2 {
             compatible = "zmk,behavior-sensor-rotate-key-press";
             label = "ENC_KEY_PRESS_2";
-            triggers-per-rotation = <4>;
+            triggers-per-rotation = <3>;
             #sensor-binding-cells = <2>;
             
         };
@@ -35,7 +35,7 @@
 		one {
 			//PREV | PLAY/PAUSE | NEXT
 			bindings = <&kp C_MUTE &lt 4 F13 &kp C_PP>;
-			sensor-bindings = <&inc_dec_kp_2 LG(LS(F11)) LG(LS(F12))>;
+			sensor-bindings = <&inc_dec_kp_2 LG(LS(F12)) LG(LS(F11))>;
 		};
 		two {
 			//PREV | PLAY/PAUSE | NEXT
