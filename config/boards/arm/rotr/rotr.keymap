@@ -21,7 +21,7 @@
 		};
 		one {
 			//PREV | PLAY/PAUSE | NEXT
-			bindings = <&kp C_PREV &lt 4 C_PP &kp &kp C_NEXT>;
+			bindings = <&kp C_MUTE &lt 4 F13 &kp C_PP>;
 			sensor-bindings = <&inc_dec_kp LG(LS(F11)) LG(LS(F12))>;
 		};
 		two {
