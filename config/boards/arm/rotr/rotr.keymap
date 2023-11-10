@@ -9,7 +9,7 @@
             compatible = "zmk,behavior-sensor-rotate-key-press";
             label = "ENC_KEY_PRESS_2";
             triggers-per-rotation = <1>;
-            #sensor-binding-cells = <1>;
+            #sensor-binding-cells = <2>;
             
         };
     };
